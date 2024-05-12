@@ -44,7 +44,7 @@ export default {
     <button @click="ChangeCountry()">
       {{ IsCountryAvailable ? 'Hide Countries' : 'Show Countries' }}
     </button>
-
+    <br><br><br><br>
     <button @click="Counter = Counter + 1">
         Add Counter
     </button>
