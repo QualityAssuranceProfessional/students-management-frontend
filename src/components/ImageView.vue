@@ -1,14 +1,30 @@
 <template>
-    <div>
+   
+
+   <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+ 
+ <div class="carousel-inner d-flex">
+   
+     <div class="carousel-item active" data-bs-interval="5000">
         <div v-for="(im,index) in images" :key="im">
-        <img v-if="imageNumber==(index+1)"  :src="im" alt="Vue.js" />
+        <img class="rounded"  v-if="imageNumber==(index+1)"  :src="im" alt="Vue.js" />
         </div>
-        <button @click="Back()">Back</button>
-        <button @click="NextImage()">Next</button>
-    </div>
+       
+     </div>
+ </div>
+
+ <button class="carousel-control-prev" @click="Back()" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+ </button>
+ <button class="carousel-control-next" @click="NextImage()" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+ </button>
+</div>
     
 </template>
-
+<!-------------------------------------------------------------------------------->
 <script>
 export default {
     data() {
@@ -43,7 +59,9 @@ export default {
     
 }
 </script>
-
+<!-------------------------------------------------------------------------------->
 <style scoped>
-
+.carousel{
+    margin-top: 50px;
+}
 </style>
