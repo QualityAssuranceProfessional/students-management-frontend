@@ -1,0 +1,86 @@
+.cairo-text{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid #fa65b1;
+    background-color: rgba(211, 211, 211, 0.116);
+    border-radius: 3px;
+  }
+  ::placeholder {
+  text-align: center;
+  }
+
+  
+  .border-first-button:hover {
+   background-color: #fa65b1;
+   color: #fff !important;
+  }
+  .services:after {
+    content: '';
+    background-image: url(../images/services-left-dec.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    width: 786px;
+    height: 800px;
+    z-index: 0;
+  }
+  
+  .services:before {
+    content: '';
+    background-image: url(../images/services-right-dec.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 300px;
+    width: 160px;
+    height: 550px;
+    z-index: 0;
+  }
+  .cairo-text{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  
+.counter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .counter button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fa65b1;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .counter button:hover {
+    background-color: #fa65b1;
+  }
+  
+  .counter span {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .container .section-heading{
+      text-align: center;
+  }
+  
