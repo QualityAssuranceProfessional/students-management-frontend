@@ -11,8 +11,8 @@
     
     <br />
     <div class="btn-group" role="group" aria-label="Basic outlined example">
-      <button type="button" class="btn btn-outline-info" @click="ChangeMessage()">Change Message</button>
-    <button type="button" class="btn btn-outline-info" @click="ChangeCountry()">
+      <button type="button" class="btn btn-info count" @click="ChangeMessage()">Change Message</button>
+    <button type="button" class="btn btn-info count" @click="ChangeCountry()">
       {{ IsCountryAvailable ? 'Hide Countries' : 'Show Countries' }}
     </button>
     </div>
@@ -46,7 +46,7 @@ h1{
   /*font-family:  "Noto Sans", sans-serif;*/
   font-family: "Cormorant Garamond", serif;
   margin-top: 30px;
-  color: rgb(43, 43, 44);
+  color: rgb(43, 43, 46);
 
 }
 #list{
@@ -61,9 +61,16 @@ h1{
   .btn{
     color: #747bff;
     border-color: #747bff;
+   
+  }
+  .count{
+    background-color: #747bff;
+    border-color:  rgb(248, 249, 251);
+    color: rgb(248, 249, 251);
   }
   .btn:hover{
     color: rgb(240, 240, 246);
-    background-color: #747bff;
+    background-color: #4b4f93;
+    border-color:  rgb(248, 249, 251);
   }
 </style>
