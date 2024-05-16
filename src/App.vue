@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+ <image-view></image-view> 
 <country-view></country-view>
 <br>
 <br>

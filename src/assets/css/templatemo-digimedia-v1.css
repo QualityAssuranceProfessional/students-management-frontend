@@ -41,6 +41,8 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+  font-family: "Cairo", sans-serif;
+
 }
 .cairo-text{
   font-family: "Cairo", sans-serif;
@@ -210,7 +212,7 @@ body {
 }
 
 .section-heading .line-dec {
-  width: 50px;
+  width: 500px;
   height: 2px;
   background-color: #726ae3;
 }
@@ -1326,7 +1328,7 @@ Services Style
 */
 
 .services {
-  padding-top: 130px;
+  //padding-top: 130px;
   position: relative;
 }
 
