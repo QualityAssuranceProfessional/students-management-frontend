@@ -1,14 +1,12 @@
 <script>
-import ImageView from './components/ImageView.vue'
-import Country from './components/countries.vue'
-import Counter from './components/CounterView.vue'
+import AppHader from './views/AppHader.vue';
+import AppFooter from './views/AppFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    'image-view' : ImageView,
-    'country-view' : Country,
-    'counter-view' : Counter
+    AppHader,
+    AppFooter
   },
 
 }
@@ -16,11 +14,11 @@ export default {
 </script>
 
 <template>
- <image-view></image-view> 
-<country-view></country-view>
-<br>
-<br>
-<counter-view></counter-view>
+  <div>
+    <AppHader />
+    <router-view style="padding-top:200px;"></router-view>
+    <AppFooter />
+  </div>
 </template>
 
 <style scoped>
