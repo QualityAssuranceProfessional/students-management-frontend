@@ -23,7 +23,7 @@
           <div class="modal-footer">
             <slot name="footer">
               <button type="button" class="btn btn-secondary" @click="closeModal">Close</button>
-              <button type="submit" class="btn btn-primary" @click="saveChanges">Save changes</button>
+              <button type="submit" class="btnsaveChanges" @click="saveChanges">Save changes</button>
             </slot>
           </div>
         </div>
@@ -71,6 +71,7 @@
     position: relative;
     width: auto;
     margin: 10px;
+    margin-left: 410px;
   }
   
   .modal-content {
@@ -100,5 +101,18 @@
     display: flex;
     justify-content: flex-end;
   }
+  .btnsaveChanges {
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background-color: #e455f6;
+  font-size: 15px;
+  color: #fff;
+text-align: center;
+float: right;
+margin-right: 99px;
+}
   </style>
   

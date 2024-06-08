@@ -297,6 +297,7 @@ export default {
         birthDate: '',
         joinDate: '',
         bloodType: '',
+        yearClassID: '',
         username: '',
         email: '',
         password: '',
